@@ -64,6 +64,96 @@ h1 {
     -webkit-background-clip: text;
 }
 
+.button-tree {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    outline: none;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 17px;
+    border: 3px solid #7FFF00;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 15px;
+}
+
+.button-tree :hover {
+    filter:drop-shadow(0 0 20px green) drop-shadow(0 0 30px green);
+}
+
+.tree-text {
+    text-align: center;
+    margin-top: 16%;
+}
+
+.main {
+    height: 1080px;
+}
+
+@media screen and (max-width: 1700px) {
+    a {
+        font-size: 16px;
+    }
+    h1{
+        font-size: 112px;
+    }
+    .tree-text {
+        margin-top: 18%;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .tree-text {
+        margin-top: 19%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .tree-text {
+        margin-top: 21%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .tree-text {
+        margin-top: 23%;
+    }
+}
+
+@media screen and (max-height: 920px) {
+    a {
+        font-size: 16px;
+    }
+    h1{
+        font-size: 112px;
+    }
+    .tree-text {
+        margin: 16%;
+    }
+}
+
+@keyframes colorchange {
+    0% {
+        color: #BDEBBA;
+    }
+    20% {
+        color: #ADFF2F;
+    }
+    40% {
+        color: #7FFF00;
+    }
+    60% {
+        color:#7CFC00
+    }
+    80% {
+        color:#7CFC00
+    }
+    100% {
+        color: #66FF00;
+    }
+}
+
 @keyframes move {
     0% {
         background-position: 0 
@@ -87,29 +177,3 @@ h1 {
     }
 }
 
-.button-tree {
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    outline: none;
-    transform: translate(-50%, -50%);
-    padding: 10px 20px;
-    font-size: 17px;
-    border: 3px solid #7FFF00;
-    cursor: pointer;
-    background: transparent;
-    border-radius: 15px;
-}
-
-.button-tree :hover {
-    filter:drop-shadow(0 0 20px green) drop-shadow(0 0 30px green);
-}
-
-.tree-text {
-    text-align: center;
-    margin-top: 327px;
-}
-
-.main {
-    height: 1080px;
-}
