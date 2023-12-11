@@ -1,11 +1,3 @@
-// let tree = 0;
-
-// document.getElementById('counter')[0].textContent = "Вы посадили " + tree + " деревьев !"
-
-// document.querySelector('button').onclick = function() {
-//     tree = tree + 1 //++tree
-//     alert(tree)
-// }
 
 var tree = 0;
 
