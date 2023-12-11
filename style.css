@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/123123123.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: multiply;
+    background-color: grey;
+    max-height: 950px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+}
+
+.logo {
+    width: 90px;
+    border-radius: 30%;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.header ul li a:hover {
+    filter: drop-shadow(0 0 20px green) drop-shadow(0 0 30px green);
+    color: #BDEBBA;
+}
+
+h1 {
+    color: transparent;
+    background-image: linear-gradient(45deg, #66FF00, #ADFF2F, #7FFF00 ,#7CFC00  , #7CFC00,
+    Yellow, Lime, MediumAquaMarine, Aqua, blue);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: 200%, 200%;
+    animation: move 10s ease infinite;
+    font-size: 140px;
+    top: 35%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 
+        0;
+    }
+    25% {
+        background-position: 
+        100% 0;
+    }
+    50% {
+        background-position:100%
+        100%;
+    }
+    75% {
+        background-position: 0 
+        100%;
+    }
+    100% {
+        background-position: 0 
+        0;
+    }
+}
+
+.button-tree {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    outline: none;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 17px;
+    border: 3px solid #7FFF00;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 15px;
+}
+
+.button-tree :hover {
+    filter:drop-shadow(0 0 20px green) drop-shadow(0 0 30px green);
+}
+
+.tree-text {
+    text-align: center;
+    margin-top: 327px;
+}
