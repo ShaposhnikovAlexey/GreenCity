@@ -1,1 +1,1 @@
-clean GreenCity project
+The absolutely clean GreenCity project
